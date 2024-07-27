@@ -1,0 +1,166 @@
+
+/* Responsive  */
+
+
+@media  (max-width: 700px) {
+
+
+
+    img{
+        max-width: 100%;
+    }
+
+    
+    .search-bar{
+        display: none;
+    }
+    .user-icon{
+        display: none;
+    }
+    .main-header ul{
+        gap: 10px;
+    }
+    .hero-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+       
+       
+    }
+
+    .hero-section {
+       
+        background-size: cover;
+        height: auto;
+        
+    }
+
+
+
+
+    .hero-left h1{
+        font-family: var(--secondary-font);
+        font-size: 7.0rem;
+        font-weight: 700;
+        line-height: 7.0rem;
+        position: relative;
+    
+    }
+
+    .hero-container{
+        flex-direction: column-reverse;
+        display: flex;
+        padding: 80px 30px;
+
+    }
+
+    .hero-right img{
+        transform: translateX(0px) translateY(30px);
+    }  
+    
+    .all-products{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 350);
+        gap: 130px;
+        align-items: center;
+        justify-content: center;
+    }
+    .product-bottom{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 350);
+        gap: 130px;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .popular-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 350);
+        gap: 80px;
+        align-items: center;
+        justify-content: center;
+       
+        
+
+        
+        
+    }
+
+   
+    .popular-left:nth-child(1) { order: 2; }
+    .popular-right:nth-child(2) { order: 1; }
+
+
+    .popular-heading h2{
+        margin-top: 52px;
+        
+    }
+    
+
+    .review-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .review-left h2{
+
+        font-family: var(--secondary-font);
+        font-size: 3.2rem;
+        font-weight: 700;
+        line-height: 4.6ren;
+        margin-bottom: 5.0rem;
+        text-align:center ;
+        
+        
+        }
+
+
+        .review-left p{
+  
+
+            font-size: 1.8rem;
+            font-style: italic;
+            font-weight: 500;
+            line-height: 3.6rem;
+            margin-bottom: 4.8rem;
+            
+            
+            }
+            .review-left{
+                width: 470px;
+                
+            }
+
+            .find-store-container{
+                text-align: center;
+                width: 470px;
+                position: absolute;
+                top: 30%;
+                left: 5%;
+              
+                
+              
+            }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

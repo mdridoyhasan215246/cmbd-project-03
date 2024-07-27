@@ -144,10 +144,11 @@ Height:52px;
 .hero-section{
 
     background-image: url(./images/BG.png);
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     height: 662px;
+    
 }
 
 .hero-container{
@@ -861,25 +862,6 @@ line-height: 2.8rem;
 
 
 
-
-/* Responsive  */
-
-
-@media  (max-width: 700px) {
-    .hero-container{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        justify-content: center;
-       
-       
-    }
-    .hero-section {
-       
-        background-size: cover;
-        height: auto;
-        
-    }
-}
 
 
 
